@@ -13,11 +13,13 @@ CORS(app)
 # db = SQLAlchemy(app)
 
 # to start app
-# set FLASK_APP=app (or set FLASK_APP since files is called app.py)
+# set FLASK_APP=app (or set FLASK_APP since files is called app.py) for windows
+# export FLASK_APP=app (or set FLASK_APP since files is called app.py) for mac
 # flask run
 
 # enable dev mode be like
 # set FLASK_ENV=development
+# export FLASK_APP=development (or set FLASK_APP since files is called app.py) for mac
 # flask run
 
 
